@@ -11,7 +11,7 @@ public class pergerakan_player : MonoBehaviour
 
     [SerializeField] private float speed_jump = 3f;
     [SerializeField] private float speed_walk = 2f;
-    [SerializeField] private float speed_run = 8f;
+    public float speed_run = 8f;
     [SerializeField] private float gravitasi = -9.81f;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundDistance = 0.4f;
